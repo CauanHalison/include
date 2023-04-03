@@ -1,0 +1,484 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navegacao{
+    position: absolute;
+    z-index: 1;
+    top: 0%;
+    left: 0px;
+    right: 0px;
+    height: 53px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
+}
+.navegacao ul{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 2.5vw;
+}
+.navegacao ul li{
+    margin: 0 10px;
+}
+.navegacao ul li a{
+    font-family: 'Forum';
+    font-weight: lighter;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+.img_logo{
+    position: absolute;
+    margin-top: 0.5vh;
+    margin-left: 0.5vw;
+}
+.img_logo img{
+    width: 3.7vw;
+}
+.divnav{
+    display: flex;
+    position: absolute;
+    top: auto;
+    right: 0px;
+}
+.imagem_bg{
+    width: 100vw;
+}
+.divpai{
+    position: relative;
+    width: 100%;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.texto_banner{
+    position: absolute;
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    
+}
+.titulo{
+    font-family: 'convergence';
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+.subtitulo{
+    font-family: 'Forum';
+    font-size: 2.5vw;
+    font-weight: 400;
+}
+#botao{
+    position: absolute;
+    width: 100vw;
+    margin-top: 25%;
+    text-align: center;
+}
+#botao input{
+    color: white;
+    font-family: 'Forum';
+    font-size: 2.5vw;
+    border-radius: 30px;
+    background-color: #F25221CC;
+    padding: 0 3vw 0 3vw;
+    border-style: none;
+}
+.txt_tabela h3{
+    font-family:'convergence';
+    margin-bottom: 2px;
+    font-size: 4vh;
+}
+#tabelaPrincipal{
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    height: auto;
+    width: 100%;
+}
+.tabelaSecundaria{
+    position: relative;
+    background-color: #D9D9D9;
+    margin:1.5vh 2vw;
+    height: 260px;
+    width: 40%;
+    border-radius: 30px;
+    justify-content: center;
+}
+.linha_tabela{
+    position: relative;
+    align-items: center;
+    width: 98vw;
+}
+.imagem_tabela{
+    text-align: center;
+    padding-top: 1.5vh;
+}
+.imagem_tabela img{
+    width: 10%;
+}
+.txt_tabela h3{
+    font-family: 'convergence';
+    text-align: center;
+    font-size: clamp(0.5rem, 1.25vw, 1rem);
+}
+.txt_tabela p{
+    letter-spacing: 0.5px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    padding: 0 2.5vw;
+    height: 100%;
+    font-family: 'convergence';
+    font-size: clamp(0.5rem, 1.25vw, 0.8rem);
+    font-weight: bold;
+}
+.botao_tabela{
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    text-align: center;
+}
+.botao_tabela input{
+    text-align: center;
+    color: white;
+    font-family: 'Forum';
+    font-size: clamp(0.75rem, 1.25vw, 1rem);
+    border-radius: 10px;
+    background-color: #F25221CC;
+    padding: 0 1.5vw 0 1.5vw;
+    border-style: none;
+    width: 25%;
+    height: 3.5vh;
+}
+#comentario{
+    padding: 2% 0;
+    margin: 5vh 0 5vh 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 25%;
+    width: 100%;
+    background-color:#000000E5;
+}
+#imagem_comentario{
+    position: relative;
+    width: 10%;
+    margin: 0 20px 0 20px;
+    align-items: center;
+}
+#imagem_comentario img{
+    width: 100%;
+}
+#comentario_txt{
+    padding-right:1vw ;
+    position: relative;
+    font-family: 'convergence';
+    color: white;
+    text-align: justify;
+    font-size: clamp(0.35rem, 1.5vw, 1rem);
+    width: 84vw;
+    height: 100%;
+}
+#infos{
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+#info_1{
+    position: relative;
+    width: 50%;
+    height: auto;
+    font-size: clamp(0.35rem, 1.5vw, 1rem);
+}
+#info_2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    background-color: #0000001A;
+    text-align: center;
+    margin:0 2%;
+    padding: 5% 0;
+    border-radius: 30px;
+}
+#info_2 h1{
+    font-family: 'convergence';
+    font-size: 3vw;
+}
+#img_logo_grande{
+    width: 25%;
+}
+#img_logo_grande img{
+    width: 100%;
+}
+#info_2 p{
+    font-family: 'Book Antiqua';
+    font-size: clamp(0.5rem, 2vw, 1.15rem);
+    width: 75%;
+}
+.txt_infos{
+    font-family: 'convergence';
+    position: relative;
+    background-color: #F0F0F0;
+    margin:2% 2% 2% 2%;
+    padding: 5%;
+    height: auto;
+    width: 86%;
+    border-radius: 30px;
+    justify-content: center;
+}
+.txt_infos ul li{
+    list-style-position: inside;
+    list-style-type: disc;
+}
+.txt_infos h3{
+    text-decoration: underline;
+    color: #F25221;
+}
+.cor_laranja{
+    color:#F25221;
+}
+#clientes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 70%;
+    vertical-align: middle;
+    justify-content: center;
+}
+.logos{
+    margin: 1.5% 1.5%;
+    width: 15%;
+}
+.logos img{
+    width: 100%;
+}
+#beneficios{
+    height: auto;
+    width: 100%;
+}
+#cima{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 15%;
+    width: 98%;
+    padding: 1%;
+    background-color: #F25221;
+}
+.caixas{
+    border-radius: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 9%;
+    background-color: white;
+    font-family: 'convergence';
+    font-size: clamp(0.25rem, 1.25vw, 0.8rem);
+    padding: 1%;
+}
+#baixo{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    background-color: #F25221B2;
+    padding-top: 2vw;
+}
+#txt_baixo{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+    width: 83.5vw;
+    padding: 0 8.25vw;
+    background-color: #F25221B2;
+}
+.txt_baixo{
+    padding:2% 0;
+    text-align: center;
+    height: auto;
+    width: 14vw;
+    font-family: 'convergence';
+    font-size: clamp(0.25rem, 2vw, 1rem);
+    color: white;
+}
+.circulos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    border-radius: 50%;
+    height: 4vw;
+    width: 4vw;
+    background-color: #F25221B2;
+}
+.circulos h1{
+    color: white;
+    font-family: 'Nunito';
+    font-size: clamp(0.5rem, 1.75vw, 1.5rem);
+}
+.linha{
+    margin: 0;
+    height: 2px;
+    width: 17vw;
+    background-color: #FFFFFF;
+}
+#cadastro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+}
+#primeira_metade{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 30%;
+    height: 100%;
+    margin: 0;
+    padding-right: 1.5%;
+    border-right-style: solid;
+    border-right-color: black;
+
+}
+.campos_cadastro{
+    width: 100%;
+    height: 17%;
+    margin: 0;
+}
+.campos_cadastro2{
+    width: 100%;
+    height: 17%;
+    margin: 0;
+}
+.span_cadastro{
+    font-family: 'convergence';
+    font-size:1.5vw;
+    padding: 0 0 0 2%;
+    width: 100%;
+}
+.input_cadastro{
+    border-style: hidden;
+    height: 2vw;
+    background-color: #F2522166;
+    border-radius: 20px;
+    width: 96%;
+    padding: 0 2%;
+}
+#segunda_metade{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    height: auto;
+    margin: 0;
+    padding-left: 1.5%;
+}
+.campos_cadastro1{
+    margin: 0;
+    height: 66%;
+    width: 100%;
+}
+.input_cadastro1{
+    border-style: hidden;
+    background-color: #F2522166;
+    border-radius: 20px;
+    width: 100%;
+    height: 83%;
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height:  auto;
+    margin-top: 3%;
+    padding: 0.5% 0;
+}
+#redes_sociais{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 1.5%;
+    color: white;
+    width: 30%;
+    height: 100%;
+}
+#footer h3{
+    width: 100%;
+    margin-top: 2vh;
+    font-family: 'convergence';
+    font-size: 1.5vw;
+    font-weight: 100;
+}
+#informacoes{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1.5%;
+    color: white;
+    width: 70%;
+    height:100%;
+}
+.txt_footer{
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    width: 100vw;
+    font-family: 'convergence';
+    font-size: 1.25vw;
+    font-weight: 100;
+}
+.txt_footer img{
+    margin: 0 5% 0 0;
+    width: 15%;
+}
+.txt_footer2{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5%;
+    height: auto;
+    width: 100vw;
+    font-family: 'convergence';
+    font-size: 1.25vw;
+    font-weight: 100;
+}
+#txt_informacoes{
+    margin: 0;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 60%;
+}
+#mapa{
+    text-align: right;
+    padding: 1% 2% 1% 0;
+    width: 100%;
+}
+#mapa img{
+    width: 50%;    
+}
