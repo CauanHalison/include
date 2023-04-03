@@ -3,6 +3,9 @@
     .input_cadastro{
         height: 3vw;
     }
+    .input{
+        height: 2.5vh;
+    }
 }
 @media (max-width:500px){
     .tabelaSecundaria{
