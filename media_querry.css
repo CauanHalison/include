@@ -9,8 +9,11 @@
 }
 @media (max-width:500px){
     .tabelaSecundaria{
-        width: 100%;
+        width: 75%;
         height: 180px;
+    }
+    .imagem_tabela img{
+        width: 7%;
     }
     .navegacao {
         height: 25px;
